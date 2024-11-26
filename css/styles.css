@@ -98,8 +98,18 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
+
+.nav-logo{
+  color: var(--title-color);
+  font-weight: var(--font-semi-bold);
+  transition: color .4s;
+}
+
+.nav-logo:hover{
+  color: var(--first-color);
+}
+
 
 /* Navigation for mobile devices */
 
