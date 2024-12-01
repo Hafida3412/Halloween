@@ -110,6 +110,14 @@ img {
   color: var(--first-color);
 }
 
+.nav__toggle,
+.nav__close{
+  display:flex;
+  font-size:1.5rem;
+  color: var(--title-color);
+  
+
+}
 
 /* Navigation for mobile devices */
 
