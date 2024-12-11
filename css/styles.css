@@ -214,8 +214,15 @@ width:300px;
 
 .home__img-1{
   filter:drop-shadow(0 16px 48px hsla(25, 90%, 40%, .5));
-
 }
+
+.home__img-2{
+  position:absolute;
+  top: 0;
+  left: 0;
+  animation:flicker 8s linear infinite;
+}
+
 /* Animated images */
 
 
