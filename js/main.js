@@ -27,7 +27,12 @@ const linkAction = () =>{
 }
 
 navLink.forEach(n =>n.addEventListener('click', linkAction))
-/*=============== ATROPOS JS ===============*/
 
+/*=============== ATROPOS JS ===============*/
+const myAtropos = Atropos({
+    el: '.home__images',
+    shadow: false,
+    highlight: false,
+});
 
 /*=============== ADD SHADOW HEADER ===============*/
