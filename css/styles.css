@@ -327,9 +327,10 @@ width:300px;
 }
 }
 
-
 /* Atropos class */
-
+.atropos-inner{
+  overflow: initial;
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
