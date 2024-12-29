@@ -163,6 +163,10 @@ img {
 
 /* Add shadow header */
 
+.shadow-header{
+  background-color: var(--body-color);
+  box-shadow: 0 2px 16px hsla(25, 48%, 12%, .2);
+}
 
 /*=============== HOME ===============*/
 
@@ -344,7 +348,7 @@ width:300px;
   .home__container{
     height:780px;
   }
-
+}
 
 /* For medium devices */
 
