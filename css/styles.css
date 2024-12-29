@@ -360,5 +360,43 @@ width:300px;
 
 /* For large devices */
 
+@media screen and (min-width: 1150px) {
+  .container{
+    margin-inline: auto;
+  }
 
+  .nav{
+    height: calc(var(--header-height) + 2rem);
+  }
+
+  .nav__toggle,
+  .nav__close{
+    display: none;
+  }
+  
+  .nav__list{
+    flex-direction: row;
+    column-gap: 5rem;
+  }
+
+  .home__container{
+    grid-template-columns: 512px 560px;
+    align-items: center;
+    column-gap: 3rem;
+  }
+
+  .home.data{
+    text-align: initial;
+  }
+
+  .home__description{
+    padding-right: 9rem;
+    margin-bottom: 3rem;
+  }
+
+  .home__img-1,
+  .home__img-2{
+    width: 560px;
+  }
+}
 /* For taller devices */
