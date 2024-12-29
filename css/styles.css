@@ -373,7 +373,7 @@ width:300px;
   .nav__close{
     display: none;
   }
-  
+
   .nav__list{
     flex-direction: row;
     column-gap: 5rem;
@@ -399,4 +399,11 @@ width:300px;
     width: 560px;
   }
 }
+
 /* For taller devices */
+
+@media screen and (min-width: 1150px) and (min-height: 900px) {
+.home__container{
+  align-content: center;
+}
+}
