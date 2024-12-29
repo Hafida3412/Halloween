@@ -175,7 +175,7 @@ img {
   row-gap: 2rem;
 }
 
-.home.data{
+.home__data{
   text-align: center;
 }
 
@@ -385,7 +385,7 @@ width:300px;
     column-gap: 3rem;
   }
 
-  .home.data{
+  .home__data{
     text-align: initial;
   }
 
