@@ -100,13 +100,13 @@ img {
   align-items: center;
 }
 
-.nav-logo{
+.nav__logo{
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
   transition: color .4s;
 }
 
-.nav-logo:hover{
+.nav__logo:hover{
   color: var(--first-color);
 }
 
@@ -179,7 +179,7 @@ img {
 .home__title{
   font: var(--font-regular) var(--biggest-font-size) var(--second-font);
   line-height: 100%;
-  color: var(--text-color);
+  color: var(--title-color);
   margin-bottom: .5rem;
 }
 
