@@ -36,3 +36,10 @@ const myAtropos = Atropos({
 });
 
 /*=============== ADD SHADOW HEADER ===============*/
+const shadowHeader = () =>{
+    const header = document.getElementById('header')
+    //Add a class if the bottom offset is greater than 50
+    this.scrollY >= 50 ? header.classList.add(shadow-header)
+                       : header.classList.remove(shadow-header)
+}
+window.addEventListener('scroll', shadowHeader)
