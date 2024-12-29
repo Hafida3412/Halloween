@@ -334,6 +334,16 @@ width:300px;
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and (max-width: 320px){
+  .container{
+    margin-inline: 1rem;
+  }
+}
+ 
+@media screen and (min-width: 350px) and (max-height: 680px) {
+  .home__container{
+    height:780px;
+  }
 
 
 /* For medium devices */
